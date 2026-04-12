@@ -12,7 +12,22 @@ const devConfig = {
 		port: 3000,
 		historyApiFallback: true,
 		open: true,
-		hot: true
+		hot: true,
+		proxy: [
+			{
+				context: ['/api/devtest'],
+				target: 'https://devtest.teskalabs.com',
+				changeOrigin: true,
+				pathRewrite: { '^/api/devtest': '' },
+			},
+			{
+				context: ['/api/dogapi'],
+				target: 'https://api.thedogapi.com',
+				changeOrigin: true,
+				pathRewrite: { '^/api/dogapi': '/v1' },
+				headers: { 'x-api-key': process.env.DOGAPI_KEY },
+			}
+		]
 	},
 	resolve: {
 		extensions: [".js", ".jsx"]

@@ -37,7 +37,8 @@ import { Application, I18nModule, AboutModule } from 'asab_webui_shell';
 			fallbackLng: 'en',
 			supportedLngs: ['en', 'cs'],
 			debug: false,
-			nsSeparator: false
+			nsSeparator: false,
+			keySeparator: '|'
 		}
 	};
 
