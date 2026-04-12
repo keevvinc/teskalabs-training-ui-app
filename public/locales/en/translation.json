@@ -85,6 +85,27 @@
 	},
 
 	"Training": {
-		"Hello, there is nothing here yet!": "Hello, there is nothing here yet!"
+		"Hello, there is nothing here yet!": "Hello, there is nothing here yet!",
+		"Users": "Users",
+		"Username": "Username",
+		"Back to Table": "Back to Table",
+		"Failed to load detail": "Failed to load detail",
+		"ID": "ID",
+		"Email": "Email",
+		"Address": "Address",
+		"Phone": "Phone",
+		"IP Address": "IP Address",
+		"MAC Address": "MAC Address",
+		"Created": "Created",
+		"Last Sign In": "Last Sign In",
+		"Breeds": "Breeds",
+		"Name": "Name",
+		"Breed Group": "Breed Group",
+		"Origin": "Origin",
+		"Life Span": "Life Span",
+		"Weight": "Weight",
+		"Temperament": "Temperament",
+		"Failed to load breeds": "Failed to load breeds",
+		"Failed to load data": "Failed to load data"
 	}
 }

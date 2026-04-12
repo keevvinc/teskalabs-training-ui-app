@@ -85,6 +85,27 @@
 	},
 
 	"Training": {
-		"Hello, there is nothing here yet!": "Zdravíčko, zatím tu nic není!"
+		"Hello, there is nothing here yet!": "Zdravíčko, zatím tu nic není!",
+		"Users": "Uživatelé",
+		"Username": "Uživatelské jméno",
+		"Back to Table": "Zpět na tabulku",
+		"Failed to load detail": "Nepodařilo se načíst detail",
+		"ID": "ID",
+		"Email": "E-mail",
+		"Address": "Adresa",
+		"Phone": "Telefon",
+		"IP Address": "IP adresa",
+		"MAC Address": "MAC adresa",
+		"Created": "Vytvořeno",
+		"Last Sign In": "Poslední přihlášení",
+		"Breeds": "Rasy",
+		"Name": "Název",
+		"Breed Group": "Skupina plemen",
+		"Origin": "Původ",
+		"Life Span": "Délka života",
+		"Weight": "Váha",
+		"Temperament": "Temperament",
+		"Failed to load breeds": "Nepodařilo se načíst rasy",
+		"Failed to load data": "Nepodařilo se načíst data"
 	}
 }
