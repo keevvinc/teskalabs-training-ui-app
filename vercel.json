@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "rewrites": [
+    { "source": "/api/devtest/(.*)", "destination": "https://devtest.teskalabs.com/$1" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}

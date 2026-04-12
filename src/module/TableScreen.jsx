@@ -19,7 +19,7 @@ export function TableScreen(props) {
 			props.app.addAlertFromException(e, t('Training|Failed to load data'));
 			return { rows: [], count: 0 };
 		}
-	}, [DataAPI]);
+	}, [DataAPI, t]);
 
 	const columns = useMemo(() => [
 		{
