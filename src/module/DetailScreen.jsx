@@ -12,8 +12,7 @@ export function DetailScreen(props) {
 	const [error, setError] = useState(false);
 	const [loading, setLoading] = useState(true);
 
-	// eslint-disable-next-line react-hooks/exhaustive-deps
-	const DataAPI = useMemo(() => props.app.axiosCreate('devtest'), []); // props.app is a stable singleton
+	const DataAPI = useMemo(() => props.app.axiosCreate('devtest'), [props.app]);
 
 	useEffect(() => {
 		const controller = new AbortController();

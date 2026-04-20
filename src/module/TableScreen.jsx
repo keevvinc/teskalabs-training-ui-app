@@ -7,7 +7,7 @@ import { DataTableCard2, DateTime } from 'asab_webui_components';
 export function TableScreen(props) {
 	const { t } = useTranslation();
 
-	const DataAPI = useMemo(() => props.app.axiosCreate('devtest'), []); // eslint-disable-line react-hooks/exhaustive-deps — props.app is a stable singleton
+	const DataAPI = useMemo(() => props.app.axiosCreate('devtest'), [props.app]);
 
 	const loader = useCallback(async ({ params }) => {
 		const { p = 1, i = 20 } = params;

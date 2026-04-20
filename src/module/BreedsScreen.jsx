@@ -7,7 +7,7 @@ export function BreedsScreen(props) {
 	const { t } = useTranslation();
 	const [selectedBreed, setSelectedBreed] = useState(null);
 
-	const DogAPI = useMemo(() => props.app.axiosCreate('dogapi'), []); // eslint-disable-line react-hooks/exhaustive-deps — props.app is a stable singleton
+	const DogAPI = useMemo(() => props.app.axiosCreate('dogapi'), [props.app]);
 
 	const loader = useCallback(async ({ params }) => {
 		const { p = 1, i = 20 } = params;
