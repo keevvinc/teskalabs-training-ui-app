@@ -35,7 +35,7 @@ export function DetailScreen(props) {
 
 		fetchDetail();
 		return () => controller.abort();
-	}, [id, DataAPI]); // eslint-disable-line react-hooks/exhaustive-deps — t and props.app are stable references
+	}, [id, DataAPI, t]);
 
 	return (
 		<Container className="mt-3">
