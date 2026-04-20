@@ -39,7 +39,7 @@ export function DetailScreen(props) {
 
 	return (
 		<Container className="mt-3">
-			<button className="btn btn-outline-secondary mb-3" onClick={() => navigate('/')}>
+			<button className="btn btn-outline-secondary mb-3" onClick={() => navigate(-1)}>
 				<i className="bi bi-arrow-left pe-2" />
 				{t('Training|Back to Table')}
 			</button>
